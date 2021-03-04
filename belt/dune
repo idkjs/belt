@@ -1,7 +1,9 @@
 (include_subdirs unqualified)
 
 (library
-  (public_name belt)
-  (c_names stubs)
-  (flags :standard -w -A)
-  (name Belt))
+ (foreign_stubs
+  (language c)
+  (names stubs))
+ (public_name belt)
+ (flags :standard -w -A)
+ (name Belt))
