@@ -1,0 +1,19 @@
+opam-version: "2.0"
+name: "belt"
+version: "0.1"
+synopsis: "Bucklescript's Belt library packaged for native ocaml"
+description: "Bucklescript's Belt library packaged for native ocaml"
+maintainer: "Jared Forsyth"
+authors: "Jared Forsyth"
+homepage: "https://github.com/jaredly/belt"
+dev-repo: "git+https://git@github.com:jaredly/belt.git"
+bug-reports: "https://github.com/jaredly/belt/issues"
+version: "0.1"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "dune" {build}
+  "ocaml" { >= "4.02.0" }
+]
+
