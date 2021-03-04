@@ -8,7 +8,6 @@ authors: "Jared Forsyth"
 homepage: "https://github.com/jaredly/belt"
 dev-repo: "git+https://git@github.com:jaredly/belt.git"
 bug-reports: "https://github.com/jaredly/belt/issues"
-version: "0.1"
 build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
