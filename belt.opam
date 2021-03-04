@@ -1,6 +1,6 @@
 opam-version: "2.0"
 name: "belt"
-version: "0.1"
+version: "1.0.0"
 synopsis: "Bucklescript's Belt library packaged for native ocaml"
 description: "Bucklescript's Belt library packaged for native ocaml"
 maintainer: "Jared Forsyth"
